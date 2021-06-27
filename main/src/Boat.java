@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Boat {
+public class Boat extends Vehicle {
     public final int maxSpeed = 60;
     private int numCrew;
     public List<Engine> engine = new ArrayList<>();

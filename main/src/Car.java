@@ -1,4 +1,4 @@
-public class Car {
+public class Car extends Vehicle{
     private int fuelCapacity;
     Engine eng;
 
